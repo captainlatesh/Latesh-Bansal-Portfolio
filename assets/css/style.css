@@ -982,3 +982,25 @@ transition: all 0.2s linear;
     padding-right: 20px 15px;
   }
 }
+
+@media (max-width: 850px) {
+  #hero {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/pp.jpg") top center;
+    background-size: cover;
+    
+  } 
+
+}
+
+@media (max-width:470px)
+{
+  #hero {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/pp.jpg") top center;
+    background-size: cover;
+    
+  } 
+}
